@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/ffiec-call-reports",
+  "title": "Ffiec Call Reports",
+  "description": "FFIEC Call Reports MCP — US bank line-item detail (fleet #338).",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/ffiec-call-reports",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-ffiec-call-reports",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/ffiec-call-reports/mcp"
+    }
+  ]
+}
