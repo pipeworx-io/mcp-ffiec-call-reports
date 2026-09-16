@@ -2,7 +2,7 @@
 
 Every US bank's quarterly balance sheet, income statement, regulatory capital, loan, deposit and credit-quality detail, as filed on the FFIEC Call Report (Consolidated Reports of Condition and Income, forms 031/041/051) — **4,336 filers**, line-item level.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1573+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1576+ live data sources.
 
 ## Why this is not part of `fdic`, and not the same thing
 
@@ -111,7 +111,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1573+ data sources. The
+Both URLs reach the same gateway and the same 1576+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
