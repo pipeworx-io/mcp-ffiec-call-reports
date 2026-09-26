@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ffiec-call-reports",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "FFIEC Call Reports MCP — US bank line-item detail (fleet #338).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-d7a14bbef77476134bc479a2733a96011ba686b1fd9effd8c2e3646626964dc7",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-95684fc06b9d4f90e66efaab4a573699dbdedbb7aad4707b8866b46b77a1350a",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
