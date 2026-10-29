@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-ffiec-call-reports",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "FFIEC Call Reports MCP — US bank line-item detail (fleet #338).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-ffiec-call-reports": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ffiec-call-reports"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-ffiec-call-reports.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/ffiec-call-reports",
   "pipeworx": {
-    "sourceHash": "v1-795f960865c034ce93f2c0be8935d5d5115ecfbc789763fbcd6d2ac096a618ca",
-    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
+    "mode": "gateway",
+    "slug": "ffiec-call-reports",
+    "gatewaySlug": "ffiec-call-reports",
+    "sourceHash": "v1-c4b1ebd62ab4427e2b007e72a9a3bc207ffcdd76d19cda2b81814fc8503f1322",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
