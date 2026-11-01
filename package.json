@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ffiec-call-reports",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "FFIEC Call Reports MCP — US bank line-item detail (fleet #338).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "ffiec-call-reports",
     "gatewaySlug": "ffiec-call-reports",
-    "sourceHash": "v1-c4b1ebd62ab4427e2b007e72a9a3bc207ffcdd76d19cda2b81814fc8503f1322",
-    "sourceCommit": "06a6b405041923c5ddf2ac2436e7c049e635f464"
+    "sourceHash": "v1-8a21017a1cc976020db5bc058c2099a90327ce9e318b118b9d3ddff33b6648aa",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
